@@ -1,0 +1,57 @@
+.b-form-container {
+    width: 60%;
+    height: 60%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 6px gray;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+    flex-direction: column;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    width: 50%;
+    justify-content: space-between;
+    border-right: 2px solid #f89f20 ;
+    padding-right: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+input {
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+button {
+    width: 30%;
+    background-color: #f89f20;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.b-error {
+    color: #f89f20 ;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.b-form-preview {
+    display: flex;
+    justify-content: space-around;
+}

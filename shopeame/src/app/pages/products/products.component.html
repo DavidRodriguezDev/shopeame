@@ -1,0 +1,13 @@
+<h3 class="b-text b-text--bold">Listado de Productos ({{products.length}})</h3>   
+<div class="b-product-container">   
+        <div class="b-product-card b-text b-text--medium" *ngFor="let product of products">
+            <img width="130px" src="{{product.img}}" alt="">
+            <p>{{product.name.toUpperCase()}}</p>
+            <p class="b-text b-text--light">{{product.description}}</p>
+            <h3>${{product.price}}</h3>
+            <div class="b-buttons">
+                <button (click)="deleteProduct(product.id)">Delete</button>
+                <button (click)="editProduct(product.id)">Edit</button>
+            </div>
+        </div>  
+</div> 

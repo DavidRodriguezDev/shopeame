@@ -1,0 +1,106 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Zapatos Vintage",
+      "price": 49.99,
+      "description": "Bellos zapatos antiguos para Hipsters.",
+      "stars": 4.5,
+      "img": "https://i.ibb.co/4j85tBM/shoes.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Jarabe marca blanca",
+      "price": 12.5,
+      "description": "No cura el COVID, pero está muy rico.",
+      "stars": 1,
+      "img": "https://i.ibb.co/mhgHWnf/jarabe.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Maceta de diseño",
+      "price": 9.99,
+      "description": "Maceta de diseño a precio económico.",
+      "stars": 5,
+      "img": "https://i.ibb.co/MZSrV6q/maceta.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Gato Persa",
+      "price": 100,
+      "description": "No sé si es legal vender animales online...",
+      "stars": 3,
+      "img": "https://i.ibb.co/1zPPBjx/gato.jpg"
+    },
+    {
+      "img": "https://resize.sprintercdn.com/f/550x550/products/0311081/saco-de-boxe-fila_0311081_00_4_3667745600.jpg",
+      "name": "Saco de Boxeo",
+      "description": "Para cuando no sepas como empezar por tus proyectos.... Cómpralo!",
+      "price": 45,
+      "id": 10
+    },
+    {
+      "img": "https://cdn.laredoute.com/products/9/5/8/9583933f1a32e7ec3176c19b96826659.jpg?imgopt=twic",
+      "name": "Alfombra",
+      "description": "Por si no tienes cama y en el suelo tienes frío",
+      "price": 10,
+      "id": 11
+    },
+    {
+      "img": "https://hiperchef.com/12020-large_default/xcafetera-italiana-de-aluminio-ilsa.jpg.pagespeed.ic.DOQZ2piJCA.jpg",
+      "name": "Cafetera",
+      "description": "Tu mejor aliado, y lo sabes...",
+      "price": 50,
+      "id": 12
+    },
+    {
+      "img": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-macbook-air-gold-202002?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1610746650000",
+      "name": "Mac Air",
+      "description": "Estupendo portatil volador para tirarlo por la ventana cuando no te salga el método PUT",
+      "price": 10,
+      "id": 13
+    },
+    {
+      "img": "https://www.nespresso.com/ecom/medias/sys_master/public/10481371512862/M-0449-Essenza-Mini-Nespresso-D30-Red-PDP-Background-TQ.jpg?impolicy=productPdpSafeZone&imwidth=1238",
+      "name": "Cafetera Nespresso",
+      "description": "Tu mejor aliado, si vas de guay",
+      "price": 100,
+      "id": 14
+    },
+    {
+      "img": "https://media.revistagq.com/photos/6213859e27e9dbc9cd0a4860/4:3/w_3526,h_2644,c_limit/F1-75_JPG_SPONSOR_00001.jpg",
+      "name": "Seat 600",
+      "description": "Pequeño coche utilitario para ir a comprar el pan y no cansarte caminando",
+      "price": 1499,
+      "id": 15
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71SfRVKtcWL._AC_SY355_.jpg",
+      "name": "Mercedes deportivo",
+      "description": "Si lo que te gusta es la velocidad, coche presonal de Fernando Alonso",
+      "price": 6000000,
+      "id": 16
+    },
+    {
+      "img": "https://bittercoffees.com/wp-content/uploads/2021/05/taza-cafe-250ml.jpeg",
+      "name": "Cup of cafe con leche",
+      "description": "Taza de café con mensaje motivacional imaginario",
+      "price": 7,
+      "id": 17
+    },
+    {
+      "img": "https://i.blogs.es/c68014/casa-3d/840_560.jpeg",
+      "name": "Casa",
+      "description": "La casa que no te vas a comprar por como está el Euribor",
+      "price": 653857923852,
+      "id": 18
+    },
+    {
+      "img": "https://www.farmacia-guerrero.com/image/cache/catalog/productes/672629.7-500x500.jpg",
+      "name": "Paracetamol",
+      "description": "¿Llevas 5 horas centrando un div?....",
+      "price": 10,
+      "id": 19
+    }
+  ]
+}

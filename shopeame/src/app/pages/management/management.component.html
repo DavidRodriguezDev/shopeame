@@ -1,0 +1,21 @@
+<div class="b-form-container">
+    <h3 class="b-text b-text--bold">Creación/edición de productos</h3>
+    <div class="b-form-preview">
+        <form [formGroup]="addProductForm" (ngSubmit)="submit()"> <!--Asociamos nuestro formulario con mi variable de formulario del ts-->
+            <label for="img" class="b-text b-text--regular">Ruta de la imagen</label>
+            <input type="text" name="img" id="img" formControlName="img"  placeholder="Por ej: http://asdasd.com"> <!--Le ponemos la misma clave que cuando hemos creado la estructura del formulario reactivo-->
+            <span *ngIf="isSubmit && addProductForm.controls['img'].errors" class="b-error b-text b-text--light">Este campo es requerido</span>     
+            <label for="name" class="b-text b-text--regular">Nombre</label>
+            <input type="text" formControlName="name" placeholder="Por ej: Televisión para el salón">
+            <span *ngIf="isSubmit && addProductForm.controls['name'].errors" class="b-error b-text b-text--light">Este campo es requerido</span>
+            <label for="description" class="b-text b-text--regular">Descripción</label>
+            <input type="text" formControlName="description" placeholder="Por ej: Esta televisión de 55 pulgadas es ideal...">
+            <span *ngIf="isSubmit && addProductForm.controls['description'].errors" class="b-error b-text b-text--light">Este campo es requerido</span>
+            <label for="price" class="b-text b-text--regular">Precio</label>
+            <input type="number" formControlName="price" placeholder="Por ej: 599.95">
+            <span *ngIf="isSubmit && addProductForm.controls['price'].errors" class="b-error b-text b-text--light">Este campo es requerido</span>
+            <button>Guardar</button>
+        </form>
+        <app-preview [product]="addProductForm.value"></app-preview>
+    </div>  
+</div>
